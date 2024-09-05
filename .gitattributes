@@ -1,0 +1,5 @@
+*.so filter=lfs diff=lfs merge=lfs -text
+bin/clang-18 filter=lfs diff=lfs merge=lfs -text
+bin/clang-check filter=lfs diff=lfs merge=lfs -text
+bin/lld filter=lfs diff=lfs merge=lfs -text
+bin/clang-scan-deps filter=lfs diff=lfs merge=lfs -text
